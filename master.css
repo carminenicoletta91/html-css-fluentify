@@ -5,11 +5,78 @@ padding:0;
 .contenitorebody{
  background-color:green;
  height:5000px;
+ width:1350px;
 }
 /*settaggi header*/
-.setheader{
- background-color:red;
+.setting{
+background-color:rgb(16,51,89);
  height:10%;
+}
+.setheader{
+height:30%;
+}
+.setlogo{
+position: absolute;
+left:10%;
+top:3%;
+}
+.menu{
+position:absolute;
+left:25%;
+top:9.5%;
+}
+li{
+  float: left;
+  list-style: none;
+  color:white;
+  font-size:0.6em;
+  font-family:verdana;
+}
+.setlink{
+text-decoration: none;
+color:white;
+}
+
+.setbotheader{
+position: relative;
+height:70%;
+}
+.setbotheader::after{
+content:"";
+display: table;
+clear:both;
+}
+.setimage{
+  position: relative;
+  width:450px;
+float:right;
+background-size: cover;
+}
+.titlebutton{
+position: absolute;
+width:100%;
+top:10%;
+left:10%;
+}
+h1.titlebutton{
+color:white;
+font-size:3em;
+width:50%;
+}
+input.titlebutton{
+  width: 170px;
+     height:50px;
+     border-radius: 10px 10px;
+    color:white;
+     top:50%;
+    background-color:forestgreen;
+    border-color:white;
+}
+.login{
+position: absolute;
+width:100%;
+left:120% ;
+top:0%;
 }
 /*fine settaggi header*/
 /*settaggi sezioni*/
