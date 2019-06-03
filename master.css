@@ -1,0 +1,42 @@
+*{
+margin:0;
+padding:0;
+}
+.contenitorebody{
+ background-color:green;
+ height:5000px;
+}
+/*settaggi header*/
+.setheader{
+ background-color:red;
+ height:10%;
+}
+/*fine settaggi header*/
+/*settaggi sezioni*/
+.section{
+ background-color:black;
+ height:80%;
+}
+.sezione1{
+ background-color:white;
+ height:40%;
+}
+.sezione2{
+ background-color:blue;
+ height:20%;
+}
+.sezione3{
+ background-color:purple;
+ height:10%;
+}
+.sezione4{
+ background-color:gray;
+ height:30%;
+}
+/*fine settaggi sezioni
+/*settaggi footer*/
+.setfooter{
+ background-color:yellow;
+ height:10%;
+}
+/*fine settaggi footer */
